@@ -52,37 +52,23 @@
 
 ``` json
 {
-  "privateCar": [
-	{
-		"key":"0:00-2:00",
-		"value": 12
-	},
-	{
-		"key":"2:00-4:00",
-		"value": 15
-	},
-	...
-  ],
-  "LeasedCar": [
-	{
-		"key":"0:00-2:00",
-		"value": 12
-	},
-	{
-		"key":"2:00-4:00",
-		"value": 15
-	},
-	...
-  ],
-  "dienstwagen": [...],
-  "taxi": [...],
-  "bus": [...],
-  "touringCar": [...],
-  "commuterCar": [...],
-  "roadVehicle": [...],
-  "sanitatioTruck": [...],
-  "constructionVehicle": [...],
-  "postalCar": [...],
-  "logisticsVehicle": [...]
+  "avg": {
+	"privateCar": ["0:00-2:00","2:00-4:00"...],
+	"value": [67, 15...]
+  },
+  "LeasedCar": {
+	"id": ["0:00-2:00","2:00-4:00"...],
+	"value": [123, 400...]
+  },
+  "dienstwagen": {...},
+  "taxi": {...},
+  "bus": {...},
+  "touringCar": {...},
+  "commuterCar": {...},
+  "roadVehicle": {...},
+  "sanitatioTruck": {...},
+  "constructionVehicle": {...},
+  "postalCar": {...},
+  "logisticsVehicle": {...}
 }
 ```

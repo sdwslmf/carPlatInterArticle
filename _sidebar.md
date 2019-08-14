@@ -6,3 +6,4 @@
     * [行驶里程](yxfx/queryMiles)
     * [soc剩余量及充电间隔](yxfx/queryChargeNum)
     * [充电时长及耗电量](yxfx/queryChargeTimes)
+* [前端设计](preDesign)
