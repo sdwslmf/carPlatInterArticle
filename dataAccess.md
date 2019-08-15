@@ -9,7 +9,7 @@
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;请求行：
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`POST /carPlat/sjjr/queryData`
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`POST /carPlat/dataAccess/queryData`
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Header：
 
