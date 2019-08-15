@@ -245,11 +245,13 @@ path: src/views/charts/online-type.vue
 {
   avg: {
     id: Array<string>,
-    value: Array<number>
+    value: Array<number>，
+    ratio: Array<number> //上线率
   },
   sum: {
     id: Array<string>,
-    value: Array<number>
+    value: Array<number>，
+    ratio: Array<number> //上线率
   }
 }
 ```
