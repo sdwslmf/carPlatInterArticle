@@ -200,7 +200,7 @@ path: src/views/charts/data-access.vue
   + 页面包含日期选择器，起止日期作为查询参数。
 
 + 数据获取  
-组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/sjjr/queryData`，数据格式为
+组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/dataAccess/queryData`，数据格式为
 
 ```JavaScript
 {
@@ -239,7 +239,7 @@ path: src/views/charts/online-type.vue
   + 页面包含日期选择器，起止日期作为查询参数。
 
 + 数据获取
-组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/yxfx/queryCarsByGroup`，数据格式为
+组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/runAnalysis/queryCarsByGroup`，数据格式为
 
 ```JavaScript
 {
@@ -269,7 +269,7 @@ path: src/views/charts/online-hour.vue
   + 页面包含日期选择器，起止日期作为查询参数。
 
 + 数据获取  
-组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/yxfx/queryCarsByTimes`，数据格式为
+组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/runAnalysis/queryCarsByTimes`，数据格式为
 
 ```JavaScript
 {
@@ -338,7 +338,7 @@ path: src/views/charts/distance.vue
   + 页面包含日期选择器，起止日期作为查询参数。
 
 + 数据获取  
-组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/yxfx/queryMiles`，数据格式为
+组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/runAnalysis/queryMiles`，数据格式为
 
 ```JavaScript
 {
@@ -367,7 +367,7 @@ path: src/views/charts/soc.vue
   + 页面包含日期选择器，起止日期作为查询参数。
 
 +数据获取  
-组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/yxfx/queryChargeNum`，数据格式为
+组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/runAnalysis/queryChargeNum`，数据格式为
 
 ```JavaScript
 {
@@ -396,7 +396,7 @@ path: src/views/charts/charge.vue
   + 页面包含日期选择器，起止日期作为查询参数。
 
 + 数据获取  
-组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/yxfx/queryChargeTimes`，数据格式为
+组件使用封装在Vue里的http服务向后端获取数据，请求地址为`/runAnalysis/queryChargeTimes`，数据格式为
 
 ```JavaScript
 {

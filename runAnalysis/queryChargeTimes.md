@@ -9,7 +9,7 @@
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;请求行：
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`POST /carPlat/yxfx/queryChargeTimes`
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`POST /carPlat/runAnalysis/queryChargeTimes`
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Header：
 
