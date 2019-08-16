@@ -22,9 +22,18 @@
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Body 为 JSON 格式，说明如下：
 
 参数名称|参数类型|是否必录入|说明
---|:--:|--:|--
+--|:--:|:--:|--
+开始时间 | String | 否 | 查询条件的开始时间，默认为最新数据月份的第一天
+结束时间 | String | 否 | 查询条件的结束时间，默认为最新数据月份的最后一天
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;示例参数
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;示例参数:
+
+``` json
+{
+        "startTime": "2019-07-01",
+        "endTime": "2019-07-31"
+}
+```
 
 
 ### &ensp;&ensp;[ Response ]
