@@ -39,11 +39,10 @@
 
 ``` json
 {
-        "enterpriseSum": 5100,
-        "carSum": 200000,
-        "distanceSum": 3567,
-        "distanceQD": 3567,
-        "oilSaving": 67678686,
-        "carbonReduction": 454464
+    "manufacturerSum": 33,
+    "vehSum": 54421,
+    "distanceSum": 198993222.60,
+    "oilSaving": "7478.8",
+    "carbonReduction": "16.6"
 }
 ```
