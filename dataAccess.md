@@ -40,29 +40,26 @@
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Response Body
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;返回的结果为JSON格式
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;返回的结果为JSON格式,powerTypeAndCategory里的value第一个数组是纯电车辆数，第二个是混动车辆数
 
 ``` json
 {
-    "code": 0,
-    "msg": "success",
-    "vehCategory": {
-        "id": ["公务","公交","环卫","物流","私人","通勤","租赁","出租","旅游"],
-        "value": [7481,1330,4,1569,7066,2,16737,786,40]
-    },
-    "powerTypeAndCount": {
-        "id": ["纯电动","混动"],
-        "value": [33394,1621]
-    },
-    "powerTypeAndCategory": {
-        "electric": {
-            "id": ["通勤","物流","租赁","环卫","出租","公务","公交","旅游","私人"],
-            "value": [2,1569,16694,4,776,7104,869,40,6336]
-        },
-        "mix": {
-            "id": ["出租","租赁","公务","私人","公交"],
-            "value": [10,43,377,730,461]
-        }
-    }
+	"code": 0,
+	"msg": "success",
+	"vehCategory":{
+		"id":["公务","公交","环卫","物流","私人","通勤","租赁","出租","旅游"],
+		"value":[9451,2068,4,3046,8413,126,26374,19,40]
+	},
+	"powerTypeAndCount":{
+		"id":["纯电动","混动"],
+		"value":[48050,1491]
+	},
+	"powerTypeAndCategory":{
+		"id":["通勤","物流","租赁","环卫","出租","公务","公交","旅游","私人"],
+		"value":[
+			[126,3046,26331,4,17,9388,1554,40,7544],
+			[2,43,63,869,514,0,0,0,0]
+		]
+	}
 }
 ```
