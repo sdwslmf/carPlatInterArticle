@@ -9,31 +9,22 @@
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;请求行：
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`POST /carPlat/dataAccess/queryData `
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`GET /carPlat/dataAccess/queryData?startTime=2019-07-01&endTime=2019-07-31`
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Header：
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`Content-Type : application/json;charset=UTF-8`
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`token : 7840c1d8014d3d352cdbe1614e30301d`
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Body
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Params
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Body 为 JSON 格式，说明如下：
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Params说明如下：
 
 参数名称|参数类型|是否必录入|说明
 --|:--:|:--:|--
 开始时间 | String | 否 | 查询条件的开始时间，默认为最新数据月份的第一天
 结束时间 | String | 否 | 查询条件的结束时间，默认为最新数据月份的最后一天
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;示例参数:
-
-``` json
-{
-        "startTime": "2019-07-01",
-        "endTime": "2019-07-31"
-}
-```
 
 
 ### &ensp;&ensp;[ Response ]
@@ -53,6 +44,8 @@
 
 ``` json
 {
+    "code": 0,
+    "msg": "success",
     "vehCategory": {
         "id": ["公务","公交","环卫","物流","私人","通勤","租赁","出租","旅游"],
         "value": [7481,1330,4,1569,7066,2,16737,786,40]
