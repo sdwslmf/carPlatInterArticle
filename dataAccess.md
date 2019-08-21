@@ -22,8 +22,8 @@
 
 参数名称|参数类型|是否必录入|说明
 --|:--:|:--:|--
-开始时间 | String | 否 | 查询条件的开始时间，默认为最新数据月份的第一天
-结束时间 | String | 否 | 查询条件的结束时间，默认为最新数据月份的最后一天
+开始时间 | String | 否 | 查询条件的开始时间，默认为最早有数据的一天（2018-11-05）
+结束时间 | String | 否 | 查询条件的结束时间，默认为当天
 
 
 
@@ -40,7 +40,7 @@
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Response Body
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;返回的结果为JSON格式,powerTypeAndCategory里的value第一个数组是纯电车辆数，第二个是混动车辆数
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;返回的结果为JSON格式，powerTypeAndCategory里的value第一个数组是纯电车辆数，第二个是混动车辆数
 
 ``` json
 {
