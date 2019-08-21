@@ -15,9 +15,9 @@
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`token : 7840c1d8014d3d352cdbe1614e30301d`
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Param
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Params
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Param 为 String 格式，说明如下：
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Params说明如下：
 
 参数名称|参数类型|是否必录入|说明
 --|:--:|:--:|--
