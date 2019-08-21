@@ -9,11 +9,9 @@
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;请求行：
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`POST /carPlat/index/queryData`
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`GET /carPlat/index/queryData`
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Header：
-
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`Content-Type : application/json;charset=UTF-8`
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`token : 7840c1d8014d3d352cdbe1614e30301d`
 
@@ -39,6 +37,8 @@
 
 ``` json
 {
+    "code": 0,
+    "msg": "success",
     "manufacturerSum": 33,
     "vehSum": 54421,
     "distanceSum": 198993222.60,
