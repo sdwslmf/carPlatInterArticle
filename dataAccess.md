@@ -16,9 +16,9 @@
 
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`token : 7840c1d8014d3d352cdbe1614e30301d`
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Get Params
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Params
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Get Params说明如下：
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Params说明如下：
 
 参数名称|参数类型|是否必录入|说明
 --|:--:|:--:|--
@@ -45,7 +45,7 @@
 ``` json
 {
     "code": 0,
-    "msg": "succcess",
+    "msg": "success",
     "vehCategory": {
         "id": ["公务","公交","环卫","物流","私人","通勤","租赁","出租","旅游"],
         "value": [7481,1330,4,1569,7066,2,16737,786,40]
