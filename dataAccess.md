@@ -8,9 +8,9 @@
 
 + Request的构造主要由以下几个部分组成：
   + 请求行：
-    + `GET /carPlat/dataAccess/queryData/powerTypeAndCategory?startTime=2019-07-01&endTime=2019-07-31`
-    + `GET /carPlat/dataAccess/queryData/powerTypeAndCount?startTime=2019-07-01&endTime=2019-07-31`
-    + `GET /carPlat/dataAccess/queryData/vehCategory?startTime=2019-07-01&endTime=2019-07-31`
+    + `GET /carPlat/dataAccess/powerTypeAndCategory?startTime=2019-07-01&endTime=2019-07-31`
+    + `GET /carPlat/dataAccess/powerTypeAndCount?startTime=2019-07-01&endTime=2019-07-31`
+    + `GET /carPlat/dataAccess/vehCategoryAndCount?startTime=2019-07-01&endTime=2019-07-31`
   + Request Header：
     + `token : 7840c1d8014d3d352cdbe1614e30301d`
     + Request Params
@@ -31,7 +31,7 @@ endTime | String | 是 | 查询条件的结束时间，默认为最新数据月�
 `Content-Type : application/json;charset=UTF-8`
 
 + Response Body
-返回的结果为JSON格式，最后一个JSON里的value第一个数组是纯电车辆数，第二个是混动车辆数
+返回的结果为JSON格式，最后一个JSON里的value第一个数组是纯电车辆数，第二个是混动车辆数，**并按照纯电车的数量排序**
 
 ``` json
 {
