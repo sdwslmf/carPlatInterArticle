@@ -10,6 +10,7 @@ Request的构造主要由以下几个部分组成：
 
 + 请求行：
   + `GET /carPlat/runAnalysis/queryCarsByTimes?startDate=2019-07-01&endDate=2019-07-31`
+  + `GET /carPlat/runAnalysis/seriesName?startDate=2019-07-01&endDate=2019-07-31`
 + Request Header：
   + `token : 7840c1d8014d3d352cdbe1614e30301d`
   + Request Params
@@ -51,6 +52,12 @@ endDate | String | 是 | 查询条件的结束时间，默认为当前日期
     [67, 15...], //邮政车
     [25, 185...], //物流车
   ]
+}
+
+{
+  "code": 0,
+  "msg": "success",
+  "seriesName": ['私人车', '公务车', ...]
 }
 ```
 
