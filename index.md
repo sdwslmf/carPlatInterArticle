@@ -1,39 +1,32 @@
 # 首页展示
 
-### &ensp;&ensp;[ 描述 ]
+## [ 描述 ]
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;用于统计平台累计接入车企总数，从大数据端获取数据后可直接展示
+用于统计平台累计接入车企总数，从大数据端获取数据后可直接展示
 
-### &ensp;&ensp;[ Request ]
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request的构造主要由以下几个部分组成：
+## [ Request ]
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;请求行：
++ Request的构造主要由以下几个部分组成：
+  + 请求行：
+    + `GET /carPlat/index/queryData`
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`GET /carPlat/index/queryData`
+  + Request Header：
+    + `token : 7840c1d8014d3d352cdbe1614e30301d`
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Header：
+  + Request Body
+    + 无
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`token : 7840c1d8014d3d352cdbe1614e30301d`
+## [ Response ]
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Request Body
+返回消息由返回状态行，HTTP头和消息体三部分组成:
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;无
++ HTTP Status Code  
+`200 OK`
 
++ Response Header  
+`Content-Type : application/json;charset=UTF-8`
 
-### &ensp;&ensp;[ Response ]
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;返回消息由返回状态行，HTTP头和消息体三部分组成:
-
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;HTTP Status Code
-
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`200 OK`
-
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Response Header
-
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;`Content-Type : application/json;charset=UTF-8`
-
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Response Body
-
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;返回的结果为JSON格式
++ Response Body返回的结果为JSON格式
 
 ``` json
 {
@@ -47,4 +40,4 @@
 }
 ```
 
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;注：code为0代表返回结果正常！
+注：code为0代表返回结果正常！
