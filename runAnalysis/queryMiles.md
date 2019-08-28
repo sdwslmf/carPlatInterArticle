@@ -9,16 +9,16 @@
 Request的构造主要由以下几个部分组成：
 
 + 请求行：
-  + `GET /carPlat/runAnalysis/queryMiles/categoryAndDistance?startTime=2019-07-01&endTime=2019-07-31`
-  + `GET /carPlat/runAnalysis/queryMiles/distanceAndCount?startTime=2019-07-01&endTime=2019-07-31`
+  + `GET /carPlat/runAnalysis/queryMiles/categoryAndDistance?startDate=2019-07-01&endDate=2019-07-31`
+  + `GET /carPlat/runAnalysis/queryMiles/distanceAndCount?startDate=2019-07-01&endDate=2019-07-31`
 + Request Header：
   + `token : 7840c1d8014d3d352cdbe1614e30301d`
   + Request Params
 
 参数名称|参数类型|是否必录入|说明
 --|:--:|:--:|--
-开始时间 | String | 是 | 查询条件的开始时间，默认为2018-11-05
-结束时间 | String | 是 | 查询条件的结束时间，默认为最新一天
+开始时间 | String | 是 | 查询条件的开始时间，默认为上个月的今天
+结束时间 | String | 是 | 查询条件的结束时间，默认为当天
 
 ## [ Response ]
 

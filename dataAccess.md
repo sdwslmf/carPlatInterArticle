@@ -8,17 +8,17 @@
 
 + Request的构造主要由以下几个部分组成：
   + 请求行：
-    + `GET /carPlat/dataAccess/powerTypeAndCategory?startTime=2019-07-01&endTime=2019-07-31`
-    + `GET /carPlat/dataAccess/powerTypeAndCount?startTime=2019-07-01&endTime=2019-07-31`
-    + `GET /carPlat/dataAccess/vehCategoryAndCount?startTime=2019-07-01&endTime=2019-07-31`
+    + `GET /carPlat/dataAccess/powerTypeAndCategory?startDate=2019-07-01&endDate=2019-07-31`
+    + `GET /carPlat/dataAccess/powerTypeAndCount?startDate=2019-07-01&endDate=2019-07-31`
+    + `GET /carPlat/dataAccess/vehCategoryAndCount?startDate=2019-07-01&endDate=2019-07-31`
   + Request Header：
     + `token : 7840c1d8014d3d352cdbe1614e30301d`
     + Request Params
 
 参数名称|参数类型|是否必录入|说明
 --|:--:|:--:|--
-startTime | String | 是 | 查询条件的开始时间，默认为2018-11-05
-endTime | String | 是 | 查询条件的结束时间，默认为最新数据月份的最后一天
+startDate | String | 是 | 查询条件的开始时间，默认为2018-11-05
+endDate | String | 是 | 查询条件的结束时间，默认为最新数据月份的最后一天
 
 ## [ Response ]
 
