@@ -9,6 +9,7 @@
 + Request的构造主要由以下几个部分组成：
   + 请求行：
     + `GET /carPlat/index/queryData`
+    + `GET /carPlat/index/manufacturerAndCount`
 
   + Request Header：
     + `token : 7840c1d8014d3d352cdbe1614e30301d`
@@ -26,7 +27,7 @@
 + Response Header  
 `Content-Type : application/json;charset=UTF-8`
 
-+ Response Body返回的结果为JSON格式
++ Response Body返回的结果为JSON格式，车企的接入车数量按数量排序，返回前12个
 
 ``` json
 {
@@ -37,6 +38,13 @@
     "distanceSum": 198993222.60,
     "oilSaving": "7478.8",
     "carbonReduction": "16.6"
+}
+
+{
+    "code": 0
+    "msg": "success",
+    "id": ["扬州亚星客车股份有限公司", "奇瑞新能源汽车股份有限公司","江西江铃集团新能源汽车有限公司"...],
+    "value": [185,7...]
 }
 ```
 
