@@ -10,6 +10,7 @@
   + 请求行：
     + `GET /carPlat/index/queryData`
     + `GET /carPlat/index/manufacturerAndCount`
+    + `GET /carPlat/index/periodAndCount`
 
   + Request Header：
     + `token : 7840c1d8014d3d352cdbe1614e30301d`
@@ -45,6 +46,15 @@
     "msg": "success",
     "id": ["扬州亚星客车股份有限公司", "奇瑞新能源汽车股份有限公司","江西江铃集团新能源汽车有限公司"...],
     "value": [185,7...]
+}
+
+{
+  "code": 0,
+  "msg": "success",
+  "id": ["00:00-02:00", "02:00-04:00", ...],
+  "value": [
+    [67, 15...]
+  ]
 }
 ```
 
